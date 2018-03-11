@@ -2,5 +2,5 @@
 
 while :
   do
-    python3 -m train_cms
+    python3 -m train_cms_32_32_auto
 done
