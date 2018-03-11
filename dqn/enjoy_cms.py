@@ -1,4 +1,5 @@
 import gym
+import gym_cms
 
 from baselines import deepq
 
