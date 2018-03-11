@@ -13,7 +13,7 @@ def main():
         max_timesteps=240*100000,
         buffer_size=50000,
         exploration_fraction=0.01,
-        exploration_final_eps=0.02,
+        exploration_final_eps=0.01,
         print_freq=10
     )
     print("Saving model to cms_model.pkl")
