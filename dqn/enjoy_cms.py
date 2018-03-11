@@ -5,7 +5,7 @@ from baselines import deepq
 
 def main():
     env = gym.make("cms-v0")
-    act = deepq.load("cartpole_model.pkl")
+    act = deepq.load("cms_model.pkl")
 
     while True:
         obs, done = env.reset(), False
